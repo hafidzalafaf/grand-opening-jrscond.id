@@ -146,6 +146,10 @@ footer {
     color: black;
 }
 
+.bg-light{
+    background: #f0e9ff !important;
+}
+
 .tirai{
     position: absolute;
     top: 0;
@@ -174,4 +178,19 @@ footer {
 
 .text-brown{
     color: #7d561d;
+}
+
+.bg-purple {
+    background: #f0e9ff;
+}
+.bg-welcome{
+    background: linear-gradient(to bottom, #f0e9ff, #e6e6e6);
+}
+
+@media(max-width: 600px){
+    .tirai {
+        right: -110px;
+        left: -99px;
+    }
+    
 }
