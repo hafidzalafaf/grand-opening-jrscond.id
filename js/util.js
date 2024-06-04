@@ -196,7 +196,7 @@ export const util = (() => {
         opacity('welcome', 0.025);
         countDownDate();
         audio.showButton();
-        document.getElementById('button-theme').style.display = 'block';
+        document.getElementById('button-theme').style.display = 'none';
 
         const token = document.querySelector('body').getAttribute('data-key');
         const status = await storeConfig(token);
