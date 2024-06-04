@@ -69,7 +69,7 @@ export const util = (() => {
         div.classList.add('m-2');
         div.innerHTML = `<p class="mt-0 mb-1 mx-0 p-0 text-dark">${guest.getAttribute('data-message')}</p><p class="text-brown text-center fs-5">"${escapeHtml(name)}"</p>`;
 
-        document.getElementById('form-name').value = name;
+        // document.getElementById('form-name').value = name;
         guest.appendChild(div);
     };
 
